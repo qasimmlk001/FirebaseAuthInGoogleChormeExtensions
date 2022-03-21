@@ -1,0 +1,21 @@
+body{
+    padding: 50px 100px;
+    background-color: antiquewhite;
+}
+.main{
+    text-align: center;
+    border: 2px solid grey;
+    padding: 30px;
+}
+.input{
+    padding: 10px;
+}
+#submit{
+    height: 40px;
+    width: 70px;
+}
+.main2{
+    text-align: center;
+    border: 2px solid grey;
+    padding: 30px;
+}

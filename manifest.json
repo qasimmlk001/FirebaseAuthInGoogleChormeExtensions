@@ -1,0 +1,30 @@
+{
+    "name" : "firebaseSample1",
+    "version":"1.0.0",
+    "manifest_version": 3,
+
+    "permissions":[
+    "activeTab",
+    
+    "tabs"
+],
+
+"content_scripts":[
+    {
+        "matches":["<all_urls>"],
+        "js":["main.js"],
+        "run_at":"document_end"
+    }
+
+    
+],
+"action": {
+    "default_title": "FirebaseExt",
+    "default_popup": "main.html"
+},
+"background":{
+    "service-worker":"firebase.js"
+}
+
+}
+
